@@ -3,7 +3,6 @@ import Grid from '@material-ui/core/Grid'
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-//import Divider from '@material-ui/core/Divider';
 import Button from '@material-ui/core/Button';
 import Hidden from "@material-ui/core/Hidden";
 import IconButton from "@material-ui/core/IconButton";
@@ -83,9 +82,7 @@ import ListItemText from "@material-ui/core/ListItemText";
       variant="temporary"
       anchor="left"
       open={drawerOpen}
-    //   classes={{
-    //     paper: classes.drawerPaper,
-    //   }}
+    
       onClick={() => closeDrawer()}
     >
       <List>

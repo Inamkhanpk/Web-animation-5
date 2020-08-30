@@ -1,8 +1,5 @@
 import React from 'react';
-
 import './App.css';
-
-
 import Cards from './components/Cards'
 import  Dashboard from './components/Dashboard'
 import Footer from './components/Footer'

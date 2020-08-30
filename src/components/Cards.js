@@ -8,13 +8,9 @@ import img1 from './../images/img1.jpg'
 import img2 from './../images/img2.jpg'
 import img3 from './../images/img3.jpg'
 import { makeStyles } from '@material-ui/core/styles';
-//import Fade from 'react-reveal/Fade';
-//import Zoom from 'react-reveal/Zoom';
+
 const useStyles = makeStyles((theme) => ({
-    main:{
-      //margin:theme.spacing(1),
-      
-    },
+    
     media: {
       height: 200,
       
@@ -30,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
 const Cards = () =>{
     const classes = useStyles();
     return(
-        <Grid container className={classes.main}>
+        <Grid container >
            <Grid item xs={12} md={12}>
            <Grid container justify="center"  alignItems="center" className={classes.pcenter}>
              
